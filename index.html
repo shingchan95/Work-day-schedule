@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/style.css" />
+    <title>Work Day Scheduler</title>
+  </head>
+
+  <body>
+    <header class="jumbotron">
+      <h1 class="display-3">Work Day Scheduler</h1>
+      <p class="lead">A simple calendar app for scheduling your work day</p>
+      <p id="currentDay" class="lead"></p>
+    </header>
+    <div class="container col-10 ">
+      <table class="table table-striped" id="table-input">
+        <tbody>
+          <tr>
+            <th scope="row" class="col-1" id="09timeCheck">9:00am</th>
+            <td class="col-11"><textarea class=".form-control-lg col-11" id="09table-inputs" rows="10"></textarea></td>
+            <td><button type="button" class="btn btn-primary float-right " class="saveButton" id="09button">save</button></td>
+          </tr>
+          <tr>
+            <th scope="row" class="col-1" id="10timeCheck">10:00 AM</th>
+            <td class="col-11"><textarea class=".form-control-lg col-11" id="10table-inputs" rows="10"></textarea></td>
+            <td><button type="button" class="btn btn-primary float-right" class="saveButton" id="10button">save</button></td>
+          </tr>
+          <tr>
+            <th scope="row" class="col-1" id="11timeCheck">11:00 AM</th>
+            <td class="col-11"><textarea class=".form-control-lg col-11" id="11table-inputs" rows="10"></textarea></td>
+            <td><button type="button" class="btn btn-primary float-right" class="saveButton" id="11button">save</button></td>
+          </tr>
+          <tr>
+            <th scope="row" class="col-1" id="12timeCheck">12:00 PM</th>
+            <td class="col-11"><textarea class=".form-control-lg col-11" id="12table-inputs" rows="10"></textarea></td>
+            <td><button type="button" class="btn btn-primary float-right" class="saveButton" id="12button">save</button></td>
+          </tr>
+          <tr>
+            <th scope="row" class="col-1" id="13timeCheck">01:00 PM</th>
+            <td class="col-11"><textarea class=".form-control-lg col-11" id="13table-inputs" rows="10"></textarea></td>
+            <td><button type="button" class="btn btn-primary float-right" class="saveButton" id="13button">save</button></td>
+          </tr>
+          <tr>
+            <th scope="row" class="col-1" id="14timeCheck">02:00 PM</th>
+            <td class="col-11"><textarea class=".form-control-lg col-11" id="14table-inputs" rows="10"></textarea></td>
+            <td><button type="button" class="btn btn-primary float-right" class="saveButton" id="14button"> save</button></td>
+          </tr>
+          <tr>
+            <th scope="row" class="col-1" id="15timeCheck">03:00 PM</th>
+            <td class="col-11"><textarea class=".form-control-lg col-11" id="15table-inputs" rows="10"></textarea></td>
+            <td><button type="button" class="btn btn-primary float-right" class="saveButton" id="15button">save</button></td>
+          </tr>
+          <tr>
+            <th scope="row" class="col-1" id="16timeCheck">04:00 PM</th>
+            <td class="col-11"><textarea class=".form-control-lg col-11" id="16table-inputs" rows="10"></textarea></td>
+            <td><button type="button" class="btn btn-primary float-right" class="saveButton" id="16button">  save</button></td>
+          </tr>
+          <tr>
+            <th scope="row" class="col-1" id="17timeCheck">07:00 PM</th>
+            <td class="col-11"><textarea class=".form-control-lg col-11" id="17table-inputs" rows="10"></textarea></td>
+            <td><button type="button" class="btn btn-primary float-right" class="saveButton" id="17button">save</button></td>
+          </tr>
+
+        </tbody>
+      </table>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="./assets/scripts.js"></script>
+  </body>
+</html>
