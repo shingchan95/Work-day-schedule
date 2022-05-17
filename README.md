@@ -1,3 +1,4 @@
+## USAGE
 GIVEN I am using a daily planner to create a schedule
 WHEN I open the planner
 THEN the current day is displayed at the top of the calendar
@@ -14,3 +15,6 @@ THEN the saved events persist
 `
 
 ![alt text](./assets/screenshot.PNG "index page screenshot")
+
+## CONTACT
+further question please visit https://github.com/shingchan95, or contact shingchan1219@gmail.com
