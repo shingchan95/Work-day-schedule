@@ -1,3 +1,8 @@
+#WORK DAY SCHEDULER
+
+## DESCRIPTION
+The application provides a Work Day Scheduler template. It is a fron-end application that primarily utilises Javascript & Localstorage , allows user to save data to their local storage across browser sessions.
+
 ## USAGE
 GIVEN I am using a daily planner to create a schedule
 WHEN I open the planner
