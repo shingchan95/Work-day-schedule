@@ -21,5 +21,8 @@ THEN the saved events persist
 
 ![alt text](./assets/screenshot.PNG "index page screenshot")
 
+## DEPLOYMENT LINK
+https://shingchan95.github.io/Work-day-schedule/
+
 ## CONTACT
 further question please visit https://github.com/shingchan95, or contact shingchan1219@gmail.com
